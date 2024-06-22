@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Using HTML, CSS and JavaScript</title>
+    <!-- MATERIAL ICONS CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+
+    <!-- MONTSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#"><h3>Mon Portfolio</h3></a>
+            <ul>
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="#about">Moi </a></li>
+                <li><a href="#services">Compétences</a></li>
+                <li><a href="#portfolio">Mes projets</a></li>
+            </ul>
+            <button  id="menu-btn"><span class="material-icons-sharp">menu</span></button>
+            <button  id="close-btn"><span class="material-icons-sharp">close</span></button>
+        </div>
+    </nav>
+    <!-- ============================ END OF NAVBAR ==========================-->
+
+
+
+
+    <section class="landing">
+        <div class="container">
+            <div class="socials">
+                
+                <a href="https://github.com/" target="_blank"><i class="uil uil-github"></i></a>
+            </div>
+
+            <div class="info">
+                <h1>Mon Portfolio</h1>
+                <h3>Arumugadas Ravichandran</h3>
+                <p>Étudiant en BUT Informatique à l'Université Sorbonne Paris, je suis à la recherche d'une alternance en développement web à partir de septembre 2024.</p>
+            </div>
+
+            <div class="profile-area">
+                <div class="outer-circle">
+                    <span class="material-icons-sharp">design_services</span>
+                    <span class="material-icons-sharp">dns</span>
+                    <span class="material-icons-sharp">code</span>
+                    <span class="material-icons-sharp">integration_instructions</span>
+                </div>
+                <div class="inner-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ END OF LANDING ============================-->
+
+
+
+    <section class="about" id="about">
+        <h1>A propos de moi</h1>
+        <div class="center">
+            
+                <p>Je m'appelle Arumugadas Ravichandran et je suis actuellement en deuxième année de BUT Informatique à l'Université Sorbonne Paris. Depuis mon plus jeune âge, l'informatique occupe une place centrale dans ma vie, éveillant en moi une passion profonde pour ce domaine. Mon ambition est de transformer cette passion en une carrière professionnelle épanouissante. Je suis particulièrement intéressé par plusieurs domaines de l'informatique, notamment le développement web, l'intelligence artificielle, la cybersécurité et l'administration de bases de données. Chacun de ces secteurs représente pour moi une opportunité unique de contribuer à des projets innovants et de relever des défis technologiques passionnants</p>
+                <p>Cependant, je suis encore en pleine réflexion quant à mon choix de carrière future. Pour affiner cette décision, je souhaite vivement trouver une alternance qui me permettrait d'acquérir de nouvelles compétences et de bénéficier d'une immersion dans le monde professionnel. Cette expérience me serait précieuse pour mieux comprendre les exigences et les opportunités de chaque domaine, et ainsi faire un choix éclairé pour mon avenir professionnel.
+                </p>
+                <p>
+                  En somme, je suis à la recherche d'une alternance à partir de septembre 2024, qui me donnerait l'occasion d'enrichir mon parcours académique et de me préparer au mieux pour ma future carrière dans le domaine de l'informatique.
+                </p>
+
+               <p> <strong> Mes cordonnées </strong></p>
+               <p> <em> Linkedin :</em>  https://www.linkedin.com/in/ravichandran-arumugadas-113359253/</p>
+               <p> <em> Github :</em> https://github.com/Ravichandran-Arumugadas/BUT-Informatique</p>
+               <p> <em> Mail :</em> ar_ravi0506@outlook.fr</p>
+
+
+              
+
+                <a href="./images/cv.pdf" download class="btn btn-primary"><i class="uil uil-download-alt"></i> Télécharger mon CV</a>
+            
+        </div>
+    </section>
+    <!-- ============================ END OF ABOUT =============================-->
+
+    
+    <section class="services" id="services">
+      <h1>Mes compétences</h1>
+      <div class="container">
+          <div class="service">
+              <span class="material-icons-sharp">design_services</span>
+              <h3>Frontend</h3>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+              <p>Boostrap</p>
+
+
+          </div>
+          <div class="service">
+              <span class="material-icons-sharp">language</span>
+              <h3>Backend</h3>
+              <p>Python</p>
+              <p>PHP</p>
+              <p>Node</p>
+              <p>MySql</p>
+              <p>Postgres</p>
+
+          </div>
+          <div class="service">
+              <span class="material-icons-sharp">devices</span>
+              <h3>UI/UX Design</h3>
+              <p>Adobe</p>
+              <p>Figma</p>
+
+              <p>Adobe Premiere Pro</p>
+              
+             
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+    <section class="recent-work" id="portfolio">
+        <div class="container">
+          <h4>Mes travaux récents</h4>
+          <h1>Mes Projets</h1>
+          <div class="projects">
+            <div class="project">
+              <div class="thumbnail">
+                <img src="./images/work1.jpg" />
+              </div>
+              <h2>Création d'un site internet pour un évenement</h2>
+              <p>
+                Pour notre projet, nous avons créé un site internet pour un événement organisé par un musée, en conjuguant design et développement web. L'objectif était de concevoir une plateforme esthétique et fonctionnelle, en harmonie avec l'identité visuelle du musée. Le design moderne et épuré met en valeur les expositions et œuvres d'art, offrant une expérience utilisateur agréable et immersive. Le développement a ensuite intégré les dernières technologies web pour assurer une performance optimale et une navigation fluide sur tous les appareils, garantissant ainsi une accessibilité maximale pour les visiteurs.
+              </p>
+              <div class="action">
+                <a href="https://github.com/Ravichandran-Arumugadas/BUT-Informatique" target="_blank">Github</a>
+              </div>
+            </div>
+            <!-- END OF PROJECT -->
+  
+            <div class="project">
+              <div class="thumbnail">
+                <img src="./images/work2.jpg" />
+              </div>
+              <h2>Création d'un site internet pour des formations en ligne</h2>
+              <p>
+                Pour notre projet, nous avons conçu un site internet dédié à la formation en ligne, intégrant des fonctionnalités de gestion des discussions entre formateurs et clients. Notre objectif était de créer une plateforme interactive et conviviale, facilitant l'échange d'informations et le suivi des formations. Le design intuitif permet une navigation aisée, mettant en avant les différents cours et modules disponibles. Le développement a été axé sur l'intégration de technologies de communication en temps réel, assurant une interaction fluide et efficace entre les formateurs et les participants, tout en garantissant une expérience utilisateur optimale sur tous les appareils.
+              </p>
+              <div class="action">
+                <a href="https://github.com/Ravichandran-Arumugadas/BUT-Informatique" target="_blank">Github</a>
+              </div>
+            </div>
+            <!-- END OF PROJECT -->
+  
+           
+            </div>
+            <!-- END OF PROJECT -->
+          </div>
+          <!-------------- END OF PROJECTS -------------->
+        </div>
+      </section>
+      <!--=========================== END OF RECENT WORK (PORTFOLIO) ==================================-->
+
+
+
+
+
+      <!--============================= END OF TESTIMONIAL ========================-->
+
+
+
+
+ 
+
+
+
+      <footer>
+        <div class="container">
+         
+          <div class="socials">
+            
+            <a href="https://github.com/" target="_blank"><i class="uil uil-github"></i></a>
+        </div>
+        </div>
+        <div class="copyright">
+        </div>
+      </footer>
+
+      <!-- swiper js-->
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="./main.js"></script>
+</body>
+</html>
